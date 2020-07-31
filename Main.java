@@ -19,6 +19,11 @@ public class Main{
             ran = random.nextInt(2);
         }
         System.out.println("Heads:"+heads+"Tails"+tail); 
-        
+        if(heads>tail){
+            System.out.println("You won");
+        }
+        else {
+            System.out.println("You lose");
+        }
         }
     }
