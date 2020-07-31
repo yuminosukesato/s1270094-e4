@@ -25,10 +25,10 @@ public class Main{
         }
         System.out.println("Heads:"+heads+"Tails"+tail); 
         if(heads>tail){
-            System.out.println("You won");
+            System.out.println(line1+" won");
         }
         else {
-            System.out.println("You lose");
+            System.out.println(line1+" lose");
         }
         }
     }
